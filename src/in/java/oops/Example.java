@@ -10,7 +10,7 @@ class Example{
       System.out.print("parameterized constructor");
    }
    public static void main(String args[]){
-      Example obj = new Example();
+   //   Example obj = new Example();
    }
 }
 
