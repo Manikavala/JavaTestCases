@@ -25,14 +25,14 @@ public class RemoveDuplicates {
 			System.out.print(arr[i] + " ");
 		}
 
-	//	int arr1[] = { 1, 2, 1, 3, 2, 1, 12, 34, 11, 0, 2, 2, 1, 4, 1, 2,0 };
+		int arr1[] = { 1, 2, 1, 3, 2, 1, 12, 34, 11, 0, 2, 2, 1, 4, 1, 2,0 };
 	//	int len = arr.length;
 		/*ArrayList<Integer> al = new ArrayList<Integer>();
 		for (int i = 0; i < len; i++) {
 			al.add(arr1[i]);
 		}*/
 
-		/*List<int[]> al = Arrays.asList(arr1);
+		List<int[]> al = Arrays.asList(arr1);
 		Object obj[] = al.toArray();
 		for (Object i : obj) {
 			if (al.indexOf(i) != al.lastIndexOf(i)) {
@@ -41,7 +41,7 @@ public class RemoveDuplicates {
 		}
 		for (int[] i1 : al) {
 			System.out.print(i1 + ",");
-		}*/
+		}
 
 	}
 }
