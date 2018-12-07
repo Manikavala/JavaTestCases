@@ -1,4 +1,4 @@
-package in.java.oops;
+ package in.java.oops;
 
  class Boy {
 	public void walk() {

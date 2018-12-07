@@ -40,8 +40,23 @@ public class RemoveDuplicates {
 			}
 		}
 		for (int[] i1 : al) {
-			System.out.print(i1 + ",");
+			System.out.print(i1.toString() + ",");
 		}
+		
+		
+		// my way
+		String sk="mwnkvabbawwm n a er";
+		char ch[]=sk.toCharArray();
+		String str="";
+		Arrays.sort(ch);
+		System.out.println(ch);
+		for(int i=0;i<ch.length-1;i++){
+			if(ch[i]!=ch[i+1]){
+				str=str+ch[i];
+			}
+		}
+		System.out.println(str+ch[ch.length-1]);
+		
 
 	}
 }

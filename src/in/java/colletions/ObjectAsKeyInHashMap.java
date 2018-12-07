@@ -34,12 +34,12 @@ class Price{
         this.price = pr;
     }
      
-    /*public int hashCode(){
-        System.out.println("In hashcode");
+    public int hashCode(){
+      //  System.out.println("In hashcode");
         int hashcode = 0;
         hashcode = price*20;
         hashcode += item.hashCode();
-        System.out.println(hashcode);
+     //   System.out.println(hashcode);
         return hashcode;
     }
      
@@ -51,7 +51,7 @@ class Price{
         } else {
             return false;
         }
-    }*/
+    }
      
     public String getItem() {
         return item;

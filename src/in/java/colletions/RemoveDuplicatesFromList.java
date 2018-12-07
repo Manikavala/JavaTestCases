@@ -13,7 +13,7 @@ public class RemoveDuplicatesFromList {
 		lst.add("mani");
 		lst.add("ABCD");
 		lst.add("ABCE");
-
+		lst.add("ABC");
 		System.out.println("Duplicates List " + lst);
 		Object[] obj = lst.toArray();
 

@@ -13,7 +13,7 @@ class InnerClass {
 				}
 			}
 		}
-		return a[total - 1];
+		return a[total - 3];
 	}
 
 	public static void main(String args[]) {

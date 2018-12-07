@@ -16,6 +16,7 @@ public static void main(String[] args) {
 		count++;
 		if(count==3)
 		i.remove();
+		//hm.put(7, "jfj");
 	}
 	System.out.println("After: "+hm);
 }

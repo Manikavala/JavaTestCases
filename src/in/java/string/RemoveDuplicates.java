@@ -1,6 +1,8 @@
 package in.java.string;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 public class RemoveDuplicates {
@@ -79,6 +81,29 @@ for(char c:temp){
 		l.clear();
 		l.addAll(s);
 		System.out.println(l);*/
+	public static void main(String[] args) {
+		String s="dsdkjsssdhsdajdh";
+char ch[]=s.toCharArray();
+HashMap<Character, Integer> hm=new HashMap<>();
+for(char c:ch){
+	if(hm.containsKey(c)){
+		hm.put(c, hm.get(c)+1);
+	}else {
+		hm.put(c, 1);
+	}
+}
+System.out.println(hm);
+		int len=ch.length;
+		Arrays.sort(ch);
+		String temp="";
+for(int i=0;i<len-1;i++){
+	if(ch[i]!=ch[i+1]){
+		temp=temp+ch[i];
+	}
+}
+
+System.out.println(temp+ch[ch.length-1]);
+	}
 	
 	}
 
